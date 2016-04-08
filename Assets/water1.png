@@ -1,0 +1,189 @@
+<!doctype html><html><head><meta charset="utf-8" />
+<title>Compress Image - Compressnow</title>
+<meta name="keywords" content="picture,jpeg,png,gif" />
+<meta name="description" content="Tool that compress image online." /><link rel="shortcut icon" href="favicon.ico" />
+<link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+<link href="http://compressnow.com/normalize.min.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="http://compressnow.com/css09_15-v1-small.min.css" media="screen, handheld" />
+<link rel="stylesheet" type="text/css" href="http://compressnow.com/css09_15-v1-medium.min.css" media="screen  and (min-width: 468px)" />
+<link rel="stylesheet" type="text/css" href="http://compressnow.com/css09_15-v1-large.min.css" media="screen  and (min-width: 728px)" />
+<meta name=viewport content="width=device-width, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+<meta name="google-site-verification" content="x6gBdjtn4k3cVrpwbRqdQpBxZFWglLKYqjaw70Plsis" />
+</head>
+<body>
+<div class="header wrapper" >
+	<div class="f_left">&nbsp;<a href="http://compressnow.com" class="l_title">Compress<span style="color:#FFEF5E;">now</span></a> 
+			<span id="title_t0">Help to reduce the weight of <span style="color:#FFEF5E;font-style:italic;text-transform:uppercase;">IMAGES</span>.</span>
+	</div> 	
+	<div id="flag_element" class="f_right flag_element_p"><a href="http://compressnow.com"><img alt="" src="http://compressnow.com/img/en.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://compressnow.com/fr/"><img alt="" src="http://compressnow.com/img/fr.png" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://compressnow.com/sp/"><img alt="" src="http://compressnow.com/img/sp.png" /></a></div> 
+	<div id="title_t1" class="f_right"><h1>Compress Image Online</h1></div> 	
+	<div class="clr"></div>	
+</div>
+
+<div class="middle wrapper">
+	<div id="a_top">
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<ins class="adsbygoogle"
+		 style="display:inline-block;width:728px;height:15px"
+		 data-ad-client="ca-pub-2797137122235082"
+		 data-ad-slot="7799904849"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	</div>
+	<div id="left_area" class="f_left wrapper_left_1">
+			<div style="margin:20px 0 0 0;padding:0 0 0 0;">
+				<center>
+						<label class="filebutton ft_bt">
+						<img src="http://compressnow.com/img/image_new.png" alt="" /> Upload an image <span style="color:#ff8800;">(Max : 9 Mb)</span>						<span><input type="file" id="picture00" name="i0" onchange="$(this).upload_content();"></span>
+						</label>
+				</center>
+			</div>
+			<div style="margin:10px 0 0 0;padding:0 0 0 0;">
+				<div id="ft_slider" class="dragdealer">
+					<div class="handle red-bar"><span class="value"></span> %</div>
+					<div class="cp_level">compression level</div>		 
+				</div>
+			</div>
+			<div class="weight_preview">
+				<div id="image_weight_preview"></div>
+			</div>
+			<div id="holder" class="dd_content_bg">
+			<div id="o_images" class="images_box_title0">ORIGINAL IMAGES</div>
+				<div id="compress_image_weight_1"><img alt="" id="im_result_upload" title="Image to compress" src="http://compressnow.com/img/compress_image_weight_1.gif" /></div>
+				<div id="content_0"></div>
+			</div>
+			
+			<div id="compress_button">	
+				<input class="bt_1 ft_bt" id="compress_bt" type="button" value="Compress now" />				<div id="reduction_t"></div>
+			</div>
+		
+			<div id="compressed_result" class="dd_content_bg">
+			<div id="c_images" class="images_box_title1">COMPRESS RESULT</div>
+				<div id="compress_image_weight_2"><img alt="" title="Compressed image" id="im_result_compress" src="http://compressnow.com/img/compress_image_weight_2.gif" /></div>
+				<div id="content_1"></div>
+				<span id="dl_1" style="display:none;"></span>
+			</div>	
+			<div class="clr"></div>	
+			<input type="hidden" id="s0_0" value="0" /> <input type="hidden" id="s0_1" value="0" /> <input type="hidden" id="compress_quality" value="20" /><input type="hidden" id="compress_validate" value="off" /> <input type="hidden" id="max_dnd" value="0" /> <input type="hidden" id="max_image_size_upload" value="0" /> <input type="hidden" id="max_image_size_upload_dnd" value="0" /> <input type="hidden" id="max_mb_dnd" value="0" /> <input type="hidden" id="max_kb" value="0" /> <input type="hidden" id="max_mb" value="0" /> <input type="hidden" id="dnd_size_images" value="0" /> <input type="hidden" id="dnd_size_images_all" value="0" /> <input type="hidden" id="dnd_current_value" value="0" /> <input type="hidden" id="loaded_from_what" value="" /> 	
+			<input type="hidden" id="lg_choice"  value="en" />			
+			<div id="various_message" class="message_error_t"></div>
+			
+			
+			<div id="options_compress" class="bg_ff">
+				<div style="margin:70px 0 0 0;">
+						    
+			<h2>Compressnow is a web tool that can <u>compress images</u> easily.</h2>	
+					<div class="options_element">
+					   <p>
+					   It could be helpful to reduce the weight of images, in order to use it on a website for example.
+					   <br />The webpage will <font style="color:#ff8800;">load faster</font>, and it saves bandwidth. Or for example, <span style="color:#ff8800;">just before sending an email you can compress image</span>, 
+					   or just before sharing it on a social network.
+					  <span id="footer_bt"> <br /><br />
+					   Just choose your % of compression to get a result.
+					   You can upload image up to 9 MB = 9000 KB.<br /><span style="color:#ff8800;text-decoration:underline;">Width and Height of image will not change.</span>
+					   Supported file types are : GIF, JPG, JPEG, PNG.
+					  
+					   <br /><br />
+					   Compressnow works on browser like : Chrome, Firefox, Safari, Opera...</span>
+					   </p>
+					</div>	    
+				</div>
+			</div>
+			
+	</div>
+	<div id="right_area" class="f_right margin_00020 wrapper_gif_result">		
+			<div  id="s_bt_area" class="s_bt_content">				
+					<div id="bt_fb" class="f_right" style="margin:0 5px 0 20px;">
+					<div class="fb-like" data-href="http://compressnow.com/" data-send="false" data-layout="button_count" 
+						data-width="150" data-show-faces="false"></div>
+					</div>
+				
+					<div id="bt_tw" class="f_right" style="margin:0;">
+					<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://compressnow.com/" data-count="horizontal"></a>
+					</div>
+				<div class="clr"></div>		
+				<div id="counter_area" class="counter_element">
+					<span id="counter"></span><span id="counter_txt"></span>
+				</div>
+				<div class="clr"></div>		
+			</div>
+						<div id="a_content" class="a_content_1">	
+					
+					
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<ins class="adsbygoogle"
+						 style="display:inline-block;width:300px;height:250px"
+						 data-ad-client="ca-pub-2797137122235082"
+						 data-ad-slot="2298050045"></ins>
+					<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>	
+					
+					
+										
+					
+					
+					
+					
+					
+								
+			</div>
+	</div>	
+	<div class="clr"></div>
+</div>
+<div class="footer wrapper">
+	<div>
+	<span class="t_footer">&copy; 2016 - Compressnow.com - Beta Version 3.0 
+	- <a class="l_1" target="_blank"  href="http://compressnow.com/contact.php">Contact</a> 
+	-  <a class="l_1"  target="_blank"  href="http://compressnow.com/privacy.php">Privacy</a>
+	- <a class="l_1" target="_blank"  href="http://compressnow.com/feedback.php">Feedback</a> 	
+	</span>
+	</div> 
+</div>	
+<div id="message_page"></div>
+<script src="http://compressnow.com/jquery-1.11.2.min.js"></script><script src="http://compressnow.com/lib/dragdealer.js"></script><script src="http://compressnow.com/c_js-0915-v2.min.js"></script>
+<script type="text/javascript" src="http://compressnow.com/jszip.js"></script>
+<script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-6361410-12', 'compressnow.com');ga('send', 'pageview');</script><img alt="" src="http://whos.amung.us/swidget/z37id3t34bdt.png" title="" style="width:0;height:0;border:0;">
+
+
+<script  type="text/javascript"src="http://compressnow.com/blockadblock.js"></script>
+<script type="text/javascript">
+function message_adblock()
+{
+$('.filebutton').hide();
+$('#compress_button').hide();
+$('#message_page').show();
+//console.log('message_adblock');
+var a0='<span style="font-size:1.2em;color:#000000;text-decoration:underline;">Informations</span><br /><br />Your browser is using the ABP (Ad Block Plus) plugin,<br />you can not access to compressnow.com with the ABP plugin.<br /><div style="margin:5px 0 5px 0;"><center><img src="http://compressnow.com/img/abp-no.jpg" style="border:1px dashed #b3b3b3;vertical-align:middle;" /></center></div>To use Compressnow, <span style="color:#000000;">please disable ABP</span> in you browser settings and refresh the page <br />or authorize compressnow.com in the ABP filters (<a class="l_m00" target="_blank" href="https://adblockplus.org/en/faq_basics#disable">see how to do</a>).<br />Yes, we know, ads can be annoying, but we want to keep Compressnow free.<br />';
+var b0='<div style="font-family:arial,helvetica,sans-serif;font-size:0.8em;background-color:#e6e6e6;border:1px solid #cccccc;margin:0;height:270px;width:550px;margin:0 auto 0 auto;padding:10px 0 0 0;">'+a0+'</div>';
+$('#message_page').html('<div style="position:absolute;top:25%;left:20%;height:300px;font-weight:normal;color:#ff5700;text-align:center;">'+b0+'</div>');
+				
+}
+function adBlockNotDetected() {
+	//console.log('AdBlock is not enabled');
+	var no=1;
+}
+function adBlockDetected() {
+	//console.log('AdBlock is enabled');
+	
+	message_adblock();
+}
+if(typeof blockAdBlock === 'undefined') {
+	adBlockDetected();
+} else {
+	blockAdBlock.onDetected(adBlockDetected);
+	blockAdBlock.onNotDetected(adBlockNotDetected);
+	// and|or
+	blockAdBlock.on(true, adBlockDetected);
+	blockAdBlock.on(false, adBlockNotDetected);
+	// and|or
+	blockAdBlock.on(true, adBlockDetected).onNotDetected(adBlockNotDetected);
+}
+
+
+</script>
+
+
+</body>
+</html>

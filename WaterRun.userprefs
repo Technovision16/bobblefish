@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\FishController.cs">
+    <Files>
+      <File FileName="Assets\Scripts\uiManager.cs" Line="36" Column="2" />
+      <File FileName="Assets\Scripts\Shooter.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Destroyer.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Bubble.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\FishController.cs" Line="40" Column="25" />
+      <File FileName="Assets\Scripts\Spawner.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\enemyMove.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PatallaxWater.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\bubbleend.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
