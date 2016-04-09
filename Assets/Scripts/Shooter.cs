@@ -2,6 +2,8 @@
 using System.Collections;
 
 public class Shooter : MonoBehaviour {
+	public GameObject player;
+	public GameObject shootbuton;
 
 	public Rigidbody2D projectile;
 
@@ -27,5 +29,18 @@ public class Shooter : MonoBehaviour {
 			instantiatedProjectile.velocity = transform.TransformDirection(new Vector3(speed, 0,0));
 
 		}
+	}
+
+	void OnCollisionEnter2D(Collision2D col){
+		if (col.gameObject.tag == "Bubble") {
+			shootbuton.SetActive (false);
+			Destroy (player);
+
+			//ui.gameOverActivated ();
+		}
+
+
+
+
 	}
 }
